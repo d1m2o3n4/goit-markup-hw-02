@@ -3,6 +3,9 @@ body {
   color: #2e2f42;
   font-size: 16px;
   letter-spacing: 0.02em;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo {
   color: #2e2f42;
@@ -43,11 +46,17 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
+  text-align: center;
 }
-.solution {
+.solution-container {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
 }
 .btn {
+  color: #ffffff;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
@@ -55,7 +64,31 @@ h1 {
   border-radius: 4px;
   border: 0;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+.benefits-list {
+  list-style-type: none;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-list-container {
+}
+.team-list {
+  list-style-type: none;
+}
+.portfolio-list {
+  list-style-type: none;
 }
