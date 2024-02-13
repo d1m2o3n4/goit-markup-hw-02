@@ -60,12 +60,19 @@ h1 {
   line-height: 107%;
   text-align: center;
 }
-.solution-container {
+.solution {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   padding-left: 472px;
   padding-right: 472px;
+}
+.solution-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .btn {
   color: #ffffff;
