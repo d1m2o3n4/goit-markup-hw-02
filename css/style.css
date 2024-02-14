@@ -67,7 +67,7 @@ h1 {
   padding-left: 472px;
   padding-right: 472px;
 }
-.solution-header {
+.solution-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -75,11 +75,13 @@ h1 {
   color: #ffffff;
 }
 .btn {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 500;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
   border-radius: 4px;
   border: 0;
   padding: 16px 32px;
@@ -91,6 +93,19 @@ h1 {
 }
 .benefits-list {
   list-style-type: none;
+}
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .team {
   background-color: #f4f4fd;
