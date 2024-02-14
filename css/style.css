@@ -53,13 +53,6 @@ body {
 .header-address ul {
   list-style-type: none;
 }
-h1 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 107%;
-  text-align: center;
-}
 .solution {
   background-color: #2e2f42;
   padding-top: 188px;
